@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/24531f279b.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-a]pççççççççççççççççççççççççççççççççççççççççççççççujuth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+
+    <script src="../../firebase-init.js"></script>
+
+
+    <title>Home - Projeto Zumbi dos palmares </title>
+</head>
+<header class="header">
+    <div class="img-header">
+        <img src="" alt="">
+    </div>
+    <div class="titulo">
+        <h2>Diploma Zumbi dos Palmares </h2>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <a href="home.html" onclick="showHome()"> Home</a>
+            <a href="favoritos.html" onclick="showFavoritos()">Favoritos</a>
+            <a href="faleconosco.html" onclick="showFormulario()">Fale Conosco</a>
+            <a href="atbiografia.html" onclick="showAddBio()">AtualizarBiografia</a>
+            <button type="button" class="clear" onclick="logout()">
+                loggout
+            </button>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Pesquisar...">
+            <button type="submit">Buscar</button>
+        </div>
+
+
+    </nav>
+
+</header>
+
+
+<body>
+
+
+
+    <div class="content" id="addBio">
+        <div class="atualizarBiografia">
+            <h1>Adicionar Homenageado </h1>
+            <form  method="post" id="biografiaForm">
+                <label for="NomePersonalidade">Nome do Homenageado:</label>
+                <input type="text" id="NomePersonalidade" name="NomePersonalidade" required>
+
+
+                <label for="dataNascimento">data de nascimento e atual :</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+
+                <label for="descricao">descricao:</label>
+                <textarea id="descricao" name="comment" rows="5" required></textarea>
+
+
+                <label for="adicionarimagem">adicionar link da imagem :</label>
+                <input type="text" id="adicionarlinkimg" name="adicionarimagem" required>
+                <button  onclick="adicionarBio()">Adicionar Bio</button>
+               
+              
+            </button>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+<footer>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/rafael-moreira-ba53281a1"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+    <p>Desenvolvido por Rafael da Silva Moreira - CP3020177 - Licença MIT</p>
+</footer>
+
+
+
+
+
+
+<script src="../scripts/Cards.js" ></script>
+<script src="../scripts/cadastrar.js"></script>
+<script src="../scripts/email.js"></script>
+<script src="../scripts/app.js"></script>
+<script src="../../auth-guard.js"></script>
+
+
+
+</html>

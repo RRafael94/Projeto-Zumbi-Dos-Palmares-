@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/24531f279b.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+
+    <script src="../../firebase-init.js"></script>
+
+
+    <title>Home - Projeto Zumbi dos palmares </title>
+</head>
+
+<header class="header">
+    <div class="img-header">
+        <img src="" alt="">
+    </div>
+    <div class="titulo">
+        <h2>Diploma Zumbi dos Palmares </h2>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <a href="home.html" onclick="showHome()"> Home</a>
+            <a href="favoritos.html" onclick="showFavoritos()">Favoritos</a>
+            <a href="faleconosco.html" onclick="showFormulario()">Fale Conosco</a> 
+            <a href="atbiografia.html" onclick="showAddBio()">AtualizarBiografia</a>
+            <button type="button" class="clear" onclick="logout()">
+                loggout
+            </button>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Pesquisar...">
+            <button type="submit">Buscar</button>
+        </div>
+
+
+    </nav>
+
+</header>
+
+<body>
+    
+</body>
+
+<script src="../scripts/app.js"></script>
+<script src="../../auth-guard.js"></script>
