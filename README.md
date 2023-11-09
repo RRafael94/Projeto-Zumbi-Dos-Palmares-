@@ -1,9 +1,13 @@
 # Projeto-Zumbi-Dos-Palmares-
 
 Trabalho de DWEL5 2023.2 (em Desenvolvimento)
-Link do projeto: projetozumbidospalmares20231.web.app/
 
-1) Descrição do projeto
+Link do projeto: [Projeto Zumbi dos Palmares](https://projetozumbidospalmares20231.web.app/)
+
+
+
+
+1) **Descrição do projeto**
 
    
       Todo ano a câmara municipal de Campinas homenageia alguém da comunidade negra com o diploma Zumbi dos Palmares.
@@ -11,7 +15,7 @@ Link do projeto: projetozumbidospalmares20231.web.app/
       O objetivo desse projeto é o desenvolvimento de um site onde essas pessoas possam ter um pouco da sua biografia contada.
 
 
-2) Requisitos funcionais
+2) **Requisitos funcionais**
    
     a) Autenticação
     Usuários podem fazer cadastro no site ou usar login de uma rede social. Há dois tipos de usuários: administradores e usuários.
@@ -35,7 +39,7 @@ Link do projeto: projetozumbidospalmares20231.web.app/
     Usuários comuns devem ter a possibilidade de entrar em contato com o site, via formulário/email, para ou solicitar mais informações fazer uma reclamação. Dados do      formulário devem ser armazenados, 
     junto aos dados do usuário
    
-2) Requisitos não funcionais
+2) **Requisitos não funcionais**
 
    
     a) Os usuários devem ser armazenados em um sistema de autenticação.
