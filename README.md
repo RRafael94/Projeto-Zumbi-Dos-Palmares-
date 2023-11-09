@@ -1,11 +1,12 @@
 # Projeto-Zumbi-Dos-Palmares-
 
 Trabalho de DWEL5 2023.2 (em Desenvolvimento)
+Link do projeto: projetozumbidospalmares20231.web.app/
 
 1) Descrição do projeto
 
    
-      Todo ano a câmara municipal de Campinas homenageia alguém da comunidadenegra com o diploma Zumbi dos Palmares.
+      Todo ano a câmara municipal de Campinas homenageia alguém da comunidade negra com o diploma Zumbi dos Palmares.
       É uma homenagem para aquelas pessoas que contribuíram para o desenvolvimento da comunidade negra em Campinas.
       O objetivo desse projeto é o desenvolvimento de um site onde essas pessoas possam ter um pouco da sua biografia contada.
 
@@ -19,18 +20,18 @@ Trabalho de DWEL5 2023.2 (em Desenvolvimento)
     Cada vez que o site for carregado deve trazer 3 conteúdos definidos por critérios, tais como: data  mais recente, mais curtidos ou até mesmo aleatório (sorteio).
 
    
-    c) Consultas
+    c) Consultas:
     Qualquer usuário pode consultar o conteúdo do site a partir de pelos menos 3 critérios. Por exemplo, um site de imóveis deve oferecer busca por localização, área, número de quartos, vagas para carro.
    
-    d) Favoritos ou curtidas
+    d) Favoritos ou curtidas:
     Qualquer usuário pode marcar itens vistos como favoritos ou curti-los. A marcação de favorito deve  ficar armazenada no navegador.
    
    
-    e) Gerenciamento de conteúdo
+    e) Gerenciamento de conteúdo:
     Incluir, alterar ou excluir conteúdo é de responsabilidade dos administradores.
 
    
-    f) Fale Conosco
+    f) Fale Conosco:
     Usuários comuns devem ter a possibilidade de entrar em contato com o site, via formulário/email, para ou solicitar mais informações fazer uma reclamação. Dados do      formulário devem ser armazenados, 
     junto aos dados do usuário
    
