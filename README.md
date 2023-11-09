@@ -1,6 +1,6 @@
 # Projeto-Zumbi-Dos-Palmares-
 
-Trabalho de DWEL5 2023.2 (em andamento)
+Trabalho de DWEL5 2023.2 (em Desenvolvimento)
 
 1) Descrição do projeto
 
