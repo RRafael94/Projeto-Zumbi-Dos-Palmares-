@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "projetozumbidospalmares20231"
-  }
+    "default": "projetozumbidospalmares-3cfa0",
+    "y": "projetozumbi2-a1f7d",
+    "yes": "projetozumbidospalmares-3cfa0"
+  },
+  "targets": {},
+  "etags": {}
 }

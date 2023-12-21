@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/24531f279b.js" crossorigin="anonymous"></script>
+
+
+
+
+
+    <title>Home - Projeto Zumbi dos palmares </title>
+</head>
+<header class="header">
+    <div class="img-header">
+        <img src="" alt="">
+    </div>
+    <div class="titulo">
+        <h2>Diploma Zumbi dos Palmares </h2>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <a href="admin-home.html" onclick="showHome()"> Home</a>
+            <a href="admin-favoritos.html" onclick="showFavoritos()">Favoritos</a>
+            <a href="atbiografia.html" onclick="showAddBio()">AtualizarBiografia</a>
+            <button type="button" class="clear">
+                Sair
+            </button>
+        </ul>
+
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Pesquisar...">
+            <button type="submit" id="searchButton">Buscar</button>
+        </div>
+
+
+    </nav>
+
+</header>
+
+<body>
+
+
+    <div class="content" id="formulario">
+        <div class="formulario">
+            <h1>Formulário de Contato</h1>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required autocomplete="off">
+                <label for="email">E-mail:</label>
+
+                <input type="email" id="email" name="email" required autocomplete="off">
+
+                <label for="comment">Comentário:</label>
+                <textarea id="comment" name="comment" rows="5" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+</body>
+
+<script type="module" src="../scripts/Cards.js"></script>
+<script type="module" defer src="../scripts/Autenticacao.js"></script>
+
+</html>

@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/**************** HEADER *******************************/
+header {
+        background-color: #40211A;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+        position: relative;
+       
+}
+
+.header .img-header {
+        height: 250px;
+        width: 100%; 
+        object-fit: cover;
+        padding: 2px;
+        background-image: url(../images/heeader.jpg);
+
+}
+
+.resumo-projeto img {
+        max-width: 100%;
+        height: auto;
+        /* Adicione outras propriedades de estilo conforme necessário */
+    }
+
+
+
+
+.titulo {
+        
+        background-color: #40211A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 5px ;
+        padding: 50px;
+        object-fit: cover;
+}
+
+.titulo h2 {
+        font-size: 36px;
+        color: white;
+        margin-bottom: 10px;
+        object-fit: cover;
+}
+
+
+nav {
+        display: flex;
+        justify-content: space-between;
+        /* deixar barra de pesquisa no canto direito */
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #A1A6A5;
+        padding: 10px;
+}
+
+nav a.active,
+nav a:hover {
+        color: #40211A;
+}
+
+.menu ul {
+        margin: 0;
+        padding: 0;
+
+}
+
+.menu li {
+        margin-right: 20px;
+
+}
+
+.menu li:last-child {
+        margin-right: 0;
+}
+
+.menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 3px;
+
+}
+
+
+/**************** CONTEUDO *******************************/
+
+
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #A68072;
+}
+.resumo-projeto {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 2%;
+        padding: 20px;
+        font-size: 16px;
+      }
+      
+      #imgResumo img {
+        width: 100%;
+        max-height: 50%;
+      }
+      
+      .resumo-projeto p {
+        margin-top: 5%;
+        font-size: 150%;
+        line-height: 1.5;
+      }
+
+
+
+
+
+/**************** FOOTER *******************************/
+footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #A1A6A5;
+        padding: 50px 0px;
+        align-items: center;
+        border: #40211A 1px solid;
+
+}
+
+footer ul {
+        display: flex;
+        margin-bottom: 25px;
+}
+
+footer ul li {
+        margin-right: 10px;
+}
+
+footer ul li:last-child {
+        margin-right: 0;
+}
+
+footer ul li a {
+        color: #40211A;
+        font-size: 2rem;
+}
+
+footer p {
+        color: #40211A;
+        text-align: center;
+}
+
+
+
+
+
+
+/**************** FORMULARIO *******************************/
+
+.formulario {
+        max-width: 600px;
+        margin: 20px;
+        margin-left: 28%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+}
+
+label {
+        margin-bottom: 10px;
+        font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+        padding: 10px;
+        border: 1px solid #A1A6A5;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        font-size: 16px;
+}
+
+input[type="submit"] {
+        background-color: #A1A6A5;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+        background-color: #40211A;
+}
+
+
+
+
+/****************** atualizarBiografia ********** */
+
+.atualizarBiografia {
+        max-width: 600px;
+        margin: 20px;
+        margin-left: 28%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+}
+
+label {
+        margin-bottom: 10px;
+        font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+        padding: 10px;
+        border: 1px solid #A1A6A5;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        font-size: 16px;
+}
+
+input[type="btn_addBiografia"] {
+        background-color: #A1A6A5;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+}
+
+input[type="btn_addBiografia"]:hover {
+        background-color: #40211A;
+}
