@@ -2,7 +2,7 @@
 
 Trabalho de DWEL5 2023.2 (em Desenvolvimento)
 
-Link do projeto: [Projeto Zumbi dos Palmares](https://projetozumbidospalmares20231.web.app/)
+Link do projeto: [Projeto Zumbi dos Palmares](https://projetozumbidospalmares-3cfa0.web.app/index.html)
 
 
 
